@@ -50,8 +50,7 @@ course_list::~course_list()
 //
 void node_c::bt_name(node_c * new_node, int index)
 {
-    const char * psu_classes[] ={"Calculus", "Discrete Math", "Philosophy",
-        "Biology", "Chemistry"};
+    const char * psu_classes[] ={"Calculus"};
     
     new_node->c.set_c_name(psu_classes[index]);
 
@@ -77,7 +76,7 @@ void course_list::build(node_c * & node_course, int index)
 
 void course_list::build()
 {   
-    int bt_size = (5)-1;
+    int bt_size = (1)-1;
     build(head,bt_size);
 }
 void course_list::display()

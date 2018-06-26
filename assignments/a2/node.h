@@ -25,7 +25,6 @@ class course_list: public node_c
     public:
         course_list();
         ~course_list();
-        void add_course();
         void build();
         void display();
     protected:

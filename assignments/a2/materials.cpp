@@ -23,3 +23,16 @@ void course::display() const
     cout << "--------------------------------\n";
     cout << "Course Name: " << course_name << endl;
 }
+
+void materials::materials()
+{
+
+}
+void materials::~materials()
+{
+
+}
+void materials::add()
+{
+
+}
